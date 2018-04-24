@@ -1,0 +1,33 @@
+{
+  "name": "my-first-RN",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "react-native-scripts": "1.13.1",
+    "jest-expo": "26.0.0",
+    "react-test-renderer": "16.3.0-alpha.1"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "babel-preset-react-native": "^2.1.0",
+    "expo": "^26.0.0",
+    "prop-types": "^15.5.10",
+    "react": "^16.0.0-alpha.12",
+    "react-native": "^0.54.0",
+    "react-native-swipe-cards": "^0.1.1",
+    "react-native-tab-navigator": "^0.3.4",
+    "react-navigation": "^1.5.11",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2"
+  }
+}
